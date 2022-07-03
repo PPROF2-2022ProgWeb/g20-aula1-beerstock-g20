@@ -1,0 +1,176 @@
+<div class="d-flex" id="wrapper">
+
+    <div class="bg-black" id="sidebar-wrapper">
+        <div class="
+            sidebar-heading
+            text-center
+            py-4
+            primary-text
+            fs-4
+            fw-bold
+            text-uppercase
+            border-bottom
+          ">
+            <i class="fas fa-beer me-2"></i>BEER STOCK
+        </div>
+        <div class="list-group list-group-flush my-3">
+            <a href="index.html" class="
+              list-group-item list-group-item-action
+              bg-transparent
+              second-text
+              fw-bold
+            ">
+                <i class="fas fa-project-diagram me-2"></i>Inicio</a>
+
+            <!--submenu cervezas -->
+            <ul class="navbar-nav ms-4">
+                <li class="nav-item dropdown align-items-center">
+                    <a class="
+                  nav-link
+                  dropdown-toggle
+                  second-text
+                  fw-bold
+                  list-group-item list-group-item-action
+                  bg-transparent
+                  second-text
+                  fw-bold
+                " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-wine-bottle me-2"></i>Cervezas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item " href="stockCerveza.html">Stock de Cerveza</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="recetas.html">Recetas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="coccion.html">Cocción</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="pedidosClientes.html">Pedidos de Clientes</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!--submenu materias primas -->
+            <ul class="navbar-nav ms-4">
+                <li class="nav-item dropdown align-items-center">
+                    <a class="
+                  nav-link
+                  dropdown-toggle
+                  second-text
+                  fw-bold
+                  list-group-item list-group-item-action
+                  bg-transparent
+                  second-text
+                  fw-bold
+                " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-boxes me-2"></i>Materias Primas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="Stockmateriaprima.html">Stock</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="AltadeStockmateriaprima.html">Alta de M.P.</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="proveedores.html">Proveedores</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!--submenu contacto  -->
+            <a href="contacto.html" class="
+              list-group-item list-group-item-action
+              bg-transparent
+              second-text
+              fw-bold
+            ">
+                <i class="fas fa-address-book me-2"></i>Contacto</a>
+            <!--submenu Panel de control -->
+            <ul class="navbar-nav ms-4">
+                <li class="nav-item dropdown align-items-center">
+                    <a class="
+                  nav-link
+                  dropdown-toggle
+                  second-text
+                  fw-bold
+                  list-group-item list-group-item-action
+                  bg-transparent
+                  second-text
+                  fw-bold
+                  active
+                " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-tachometer-alt me-2"></i>Panel de Control
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="registroUsuarios.html">Registro de Usuario</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item disabled" href="#">Administración de Usuarios</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!--submenu Logout -->
+            <a href="#" class="
+              list-group-item list-group-item-action
+              bg-transparent
+              text-danger
+              fw-bold
+            ">
+                <i class="fas fa-power-off me-2"></i>Logout</a>
+        </div>
+    </div>
+
+
+    <!-- Menú y nombre de usuario de margen superior -->
+    <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+            <div class="d-flex align-items-center">
+                <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
+                <h2 class="fs-2 m-0">Dashboard</h2>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="
+                    nav-link
+                    dropdown-toggle
+                    second-text
+                    fw-bold
+                    text-warning
+                  " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user me-2"></i>Ana Perez
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item disabled" href="#">Perfil</a></li>
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Configuración</a>
+                            </li>
+                            <li><a class="dropdown-item" href="login.html">Salir</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- /#cierre menú -->
+
+
+
+    </div>
+</div>

@@ -25,13 +25,14 @@
   border-radius: 100%;
 }
 
-#wrapper {
+body {
   overflow-x: hidden;
   background-image: url(../img/fondo5.png);
   background-color: #1b1b1b;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  flex: auto;
 }
 
 #sidebar-wrapper {
@@ -59,7 +60,7 @@
 }
 
 #page-content-wrapper {
-  min-width: 100vw;
+  min-width: 70vw;
 }
 
 #wrapper.toggled #sidebar-wrapper {

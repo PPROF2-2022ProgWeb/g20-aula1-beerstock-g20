@@ -60,7 +60,7 @@ body {
 }
 
 #page-content-wrapper {
-  min-width: 70vw;
+  min-width: 100vw;
 }
 
 #wrapper.toggled #sidebar-wrapper {

@@ -11,6 +11,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { StockCervezaPageComponent } from './pages/stock-cerveza-page/stock-cerveza-page.component';
 import { ProveedoresPageComponent } from './pages/proveedores-page/proveedores-page.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProveedoresPageComponent } from './pages/proveedores-page/proveedores-p
     DashboardComponent,
     StockCervezaPageComponent,
     ProveedoresPageComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -1,4 +1,5 @@
 
+
 <a href="url"><img src="https://github.com/PPROF1-2021/g9-a3g9stock/blob/main/assets/logo.png" align="left" height="300"></a>
 
 
@@ -93,4 +94,3 @@ Muchas Gracias !! Equipo
 
 <a href="url"><img src="https://santacatalinawordpresscom.files.wordpress.com/2021/04/200_d.gif" align="center" height="100"></a> 
 
-# g20-aula1-beerstock-g20-EN

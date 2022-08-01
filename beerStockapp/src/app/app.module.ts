@@ -12,6 +12,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { StockCervezaPageComponent } from './pages/stock-cerveza-page/stock-cerveza-page.component';
 import { ProveedoresPageComponent } from './pages/proveedores-page/proveedores-page.component';
 import { LoginComponent } from './pages/login/login.component';
+import { RecetasPageComponent } from './pages/recetas-page/recetas-page.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LoginComponent } from './pages/login/login.component';
     StockCervezaPageComponent,
     ProveedoresPageComponent,
     LoginComponent,
+    RecetasPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

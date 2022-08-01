@@ -14,6 +14,7 @@ import { ProveedoresPageComponent } from './pages/proveedores-page/proveedores-p
 import { LoginComponent } from './pages/login/login.component';
 import { RecetasPageComponent } from './pages/recetas-page/recetas-page.component';
 import { ContactoPageComponent } from './pages/contacto-page/contacto-page.component';
+import { CoccionPageComponent } from './pages/coccion-page/coccion-page.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ContactoPageComponent } from './pages/contacto-page/contacto-page.compo
     LoginComponent,
     RecetasPageComponent,
     ContactoPageComponent,
+    CoccionPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

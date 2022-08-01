@@ -22,34 +22,39 @@
                         Cervezas
                     </a>
                     <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="stock">Stock</a></li>
-                        <li><a class="dropdown-item" href="#">Recetas</a></li>
-                        <li><a class="dropdown-item" href="#">Cocción</a></li>
-                        <li><a class="dropdown-item" href="#">Pedidos de clientes</a></li>
+                        <li routerLinkActive="active"><a class="dropdown-item" [routerLink]="['stock']">Stock</a></li>
+                        <li routerLinkActive="active"><a class="dropdown-item" [routerLink]="['recetas']">Recetas</a>
+                        </li>
+                        <li><a class="dropdown-item disabled" href="#">Cocción</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Pedidos de clientes</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown me-4">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-boxes me-2"></i>
                         Materias Primas
                     </a>
                     <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Stock M.P.</a></li>
-                        <li><a class="dropdown-item" href="#">Alta de M.P.</a></li>
-                        <li><a class="dropdown-item" href="proveedores">Proveedores</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Stock M.P.</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Alta de M.P.</a></li>
+                        <li routerLinkActive="active">
+                            <a class="dropdown-item" [routerLink]="['proveedores']">
+                                Proveedores
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link active " href="#" tabindex="-1"> <i
+                    <a class="nav-link active disabled " href="#" tabindex="-1"> <i
                             class="fas fa-address-book me-2"></i>Contacto</a>
                 </li>
                 <li class="nav-item dropdown me-4">
-                    <a class="nav-link active dropdown-toggle me-4" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-toggle me-4 disabled" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-tachometer-alt me-2"></i>
                         Panel de Control
                     </a>
                     <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Registro de Usuario</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Registro de Usuario</a></li>
                         <li><a class="dropdown-item disabled" aria-disabled="true" href="#">Administración de
                                 Usuarios</a>
                         </li>

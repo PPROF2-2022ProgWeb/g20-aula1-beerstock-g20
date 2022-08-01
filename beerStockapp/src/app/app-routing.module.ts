@@ -5,13 +5,16 @@ import { StockCervezaPageComponent } from './pages/stock-cerveza-page/stock-cerv
 import { ProveedoresPageComponent } from './pages/proveedores-page/proveedores-page.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RecetasPageComponent } from './pages/recetas-page/recetas-page.component';
+import { ContactoPageComponent } from './pages/contacto-page/contacto-page.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent },
   { path: 'stock', component: StockCervezaPageComponent },
   { path: 'proveedores', component: ProveedoresPageComponent },
   { path: 'recetas', component: RecetasPageComponent },
+  { path: 'contacto', component: ContactoPageComponent },
   { path: 'login', component: LoginComponent },
+
   { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 

@@ -30,7 +30,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown me-4">
-                    <a class="nav-link active dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-boxes me-2"></i>
                         Materias Primas
                     </a>
@@ -44,8 +44,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item me-4">
-                    <a class="nav-link active disabled " href="#" tabindex="-1"> <i
+                <li class="nav-item me-4" routerLinkActive="active">
+                    <a class="nav-link active " [routerLink]="['contacto']" tabindex="-1"> <i
                             class="fas fa-address-book me-2"></i>Contacto</a>
                 </li>
                 <li class="nav-item dropdown me-4">

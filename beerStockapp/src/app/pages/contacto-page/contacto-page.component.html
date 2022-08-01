@@ -1,0 +1,43 @@
+<!-- Formulario de contacto  -->
+<div class="container-fluid col-9 border border-warning gx-5 p-5 border border-3 container-grey mt-5 mb-5">
+    <form class="row g-3 needs-validation text-white text-center" id="frmContacto" novalidate>
+        <p class="h1" id="pFrmContacto ">Contacto</p>
+        <p class="h6" id="txtExplicativo">Si querés vender nuestros productos en tu comercio, dejanos tu consulta y tus
+            datos y nos contactaremos con vos a la brevedad</p>
+        <!-- Nombre -->
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="inNombreComent" placeholder="Nombre" aria-label="Nombre"
+                required>
+            <div class="invalid-feedback">Debes ingresar tu nombre</div>
+        </div>
+        <!-- Apellido -->
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="inApellidoComent" placeholder="Apellido" aria-label="Apellido"
+                required>
+            <div class="invalid-feedback">Ingresá tu apellido, por favor</div>
+        </div>
+        <!-- Teléfono -->
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="inTelefonoComent" placeholder="Teléfono (Sin 0 ni 15)"
+                aria-label="Teléfono" required>
+            <div class="invalid-feedback">Por favor, ingresá tu número de teléfono</div>
+        </div>
+        <!-- Email -->
+        <div class="col-md-6">
+            <input type="email" class="form-control" id="inEmailComent" placeholder="Email" aria-label="Email" required>
+            <div class="invalid-feedback">Debes ingresar tu Email</div>
+        </div>
+        <!-- Comentario -->
+        <div class="form-floating col-md-12">
+            <label for="txtComentario">Comentarios</label>
+            <textarea class="form-control" placeholder="Dejános tu comentario" id="txtComentario" style="height: 100px"
+                required></textarea>
+            <div class="invalid-feedback">Escribe tu consulta</div>
+        </div>
+        <!-- Botón enviar -->
+        <div class="col">
+            <button class="btn btn-success col-sm-12 botonEnviar" type="submit" id="btnResumen"
+                onclick="validarComentaaa();">Enviar</button>
+        </div>
+    </form>
+</div>

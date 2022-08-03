@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center
+<nav *ngIf="router.url !== '/login'" class="navbar navbar-expand-lg navbar-dark bg-dark text-center
         primary-text
         fw-bold
         border-bottom ">
@@ -25,7 +25,11 @@
                         <li routerLinkActive="active"><a class="dropdown-item" [routerLink]="['stock']">Stock</a></li>
                         <li routerLinkActive="active"><a class="dropdown-item" [routerLink]="['recetas']">Recetas</a>
                         </li>
-                        <li><a class="dropdown-item disabled" href="#">Cocción</a></li>
+                        <li routerLinkActive="active">
+                            <a class="dropdown-item" [routerLink]="['coccion']">
+                                Cocción
+                            </a>
+                        </li>
                         <li><a class="dropdown-item disabled" href="#">Pedidos de clientes</a></li>
                     </ul>
                 </li>
@@ -49,7 +53,7 @@
                             class="fas fa-address-book me-2"></i>Contacto</a>
                 </li>
                 <li class="nav-item dropdown me-4">
-                    <a class="nav-link active dropdown-toggle me-4 disabled" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-toggle me-4" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-tachometer-alt me-2"></i>
                         Panel de Control
                     </a>

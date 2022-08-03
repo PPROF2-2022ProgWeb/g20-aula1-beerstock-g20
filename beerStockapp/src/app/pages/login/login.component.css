@@ -63,7 +63,7 @@ body {
 
 .input-fill input:focus + .input-label {
   top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
   color: #ffc800;
 }
 
@@ -74,8 +74,8 @@ body {
 .input-fill .input-label {
   position: absolute;
   top: 15px;
-  left: 28px;
-  line-height: 147.6%;
+  left: 35px;
+  line-height: 40.6%;
   color: #848f9a;
   transition: top 0.2s;
   font-weight: 700;
@@ -83,7 +83,7 @@ body {
 
 .input-fill i {
   position: absolute;
-  top: 19px;
+  top: 30px;
   left: 0;
   color: #848f9a;
   font-size: 1.5rem;
